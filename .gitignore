@@ -1,0 +1,4 @@
+.env
+.env.dev
+db_data_ppwg
+*.sql

@@ -1,0 +1,34 @@
+version: "3"
+services:
+  db:
+    image: mysql:8.0
+    volumes:
+      - ./db_data_ppwg:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${DRUPAL_DATABASE}
+      MYSQL_USER: ${DRUPAL_DB_USER}
+      MYSQL_PASSWORD: ${DRUPAL_DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DRUPAL_DB_ROOT_PASSWORD}
+      DB_HOST: ${DB_HOST}
+  web:
+    depends_on:
+      - db
+    build: .
+    ports:
+      - "8070:80"
+    restart: always
+    volumes:
+      - ./composer.json:/opt/drupal/composer.json
+      - ./composer.lock:/opt/drupal/composer.lock
+      - ./modules:/opt/drupal/web/modules
+      - ./profiles:/opt/drupal/web/profiles
+      - ./themes:/opt/drupal/web/themes
+      - ./sites:/opt/drupal/web/sites
+      - ./libraries:/opt/drupal/web/libraries
+      - ./sites/default/files:/opt/drupal/web/sites/default/files
+    environment:
+      DRUPAL_DATABASE: ${DRUPAL_DATABASE}
+      DRUPAL_DB_USER: ${DRUPAL_DB_USER}
+      DRUPAL_DB_PASSWORD: ${DRUPAL_DB_PASSWORD}
+      DB_HOST: ${DB_HOST}
