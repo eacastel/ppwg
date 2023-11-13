@@ -1,52 +1,108 @@
-.node-9 {
 
-    h6 {
-        padding: 20px 0px;
-        font-weight: bold;
+section#block-ppwg-ppwgfeatureservices {
+    position: relative;
+    z-index: 10; // Ensure it's above the previous content
+    margin-top: -40px; // Pull the section upwards
+    background: url('/sites/default/files/blue-wave.png') no-repeat center center; /* Add your background */
+    background-size: cover;
+
+
+
+    p {
+        margin-bottom: 12px;
     }
 
-    .join-us-first-p {
-        padding-bottom: 40px;
+    .feature-boxes-wrapper {
+        padding: 40px; /* Space around the boxes */
     }
 
-    .faq-endos .join-now {
-        padding: 40px;
-        border: 2px solid #8a6d3b;
-        background: #080808;
-        border-radius: 20px;
-        margin-bottom: 40px;
-    }
-
-    .join-now-button {
-        margin: 0px;
-        width: 133px;
-        font-weight: bold;
-        display: inline-block;
-        background-color: #007bff;
-        color: #fff;
-        border-radius: 5px;
-        font-size: 18px;
-        padding: 8px 12px;
-        text-decoration: none;
+    .feature-box {
+        border-radius: 30px;
+        border: 2px solid #e7e7e7;
+        background: #E4F4FF;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 20px;
+        margin-bottom: 20px; /* Vertical spacing between boxes */
         text-align: center;
-        border: 1px solid white;
-        text-transform: uppercase;
-
-        a {
-            color: #fff;
-        }
-
-        a:hover {
-            text-decoration: none;
-        }
-
-        &:hover {
-            background-color: #0056b3;
-        }
     }
 
-    .icon-join-now {
-        padding-bottom: 30px;
-        max-width: 70%;
+    .feature-title {
+        color: #00548D;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+    }
+    
+    .feature-text {
+        color: #4D4E4F;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 145.5%;
+    }
+
+    .feature-btn {
+        display: inline-block;
+        color: #FFF;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 100px;
+        border: 2px solid #FFF;
+        background: #00548D;
+        padding: 5px 20px;
+        margin-top: 10px;
+        text-decoration: none;
+    }    
+}
+
+@media (min-width: 768px) {
+    section#block-ppwg-ppwgfeatureservices {
+        margin-top: -70px; 
+
+        .feature-box {
+            margin-right: 30px; /* Space between boxes */
+            margin-left: 30px; /* Space between boxes */
+            }
+    
+            .feature-boxes-wrapper .row {
+            display: flex;
+            justify-content: space-between;
+            }
+    
+
+        .feature-title {
+            font-size: 27px;
+        }
+        
+        .feature-text {
+            font-size: 16px;
+            line-height: 145.5%;
+        }
     }
 }
+
+
+@media (min-width: 992px) {
+    section#block-ppwg-ppwgfeatureservices {
+        margin-top: -80px; // Pull the section upwards
+
+
+        .feature-box {
+            margin-right: 40px; /* Space between boxes */
+            margin-left: 40px; /* Space between boxes */
+            }
+
+        .feature-title {
+            font-size: 34px;
+            margin-bottom: 0.6em;
+        }
+        
+        .feature-text {
+            font-size: 19px;
+            line-height: 145.5%;
+        }
+    }
+}
+
+

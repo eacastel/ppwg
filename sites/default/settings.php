@@ -861,11 +861,11 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'ppwg_db',
-  'username' => 'ppwg_user01',
-  'password' => '8dffa54qod0%423',
+  'database' => getenv('DRUPAL_DATABASE'),
+  'username' => getenv('DRUPAL_DB_USER'),
+  'password' => getenv('DRUPAL_DB_PASSWORD'),
   'prefix' => '',
-  'host' => 'db',
+  'host' => getenv('DB_HOST'),
   'port' => '3306',
   'isolation_level' => 'READ COMMITTED',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',

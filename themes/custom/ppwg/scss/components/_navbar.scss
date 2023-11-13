@@ -236,9 +236,10 @@ $navbar-mobile-overlay: rgba(0, 0, 0, 0.8);
           }
       }
      li.last > a {
-        padding-right:0 !important;
+        //padding-right:0;
       }
     }
+
 }
 
 
@@ -246,15 +247,12 @@ $navbar-mobile-overlay: rgba(0, 0, 0, 0.8);
 @media (min-width: 992px) {
 
 
-
   .navbar.container {
     max-width: 1140px;
     width: 100%;
   }
 
-  .container {
-    width: 1140px;
-  }
+
 
   .menu--main {
 
