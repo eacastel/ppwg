@@ -21,7 +21,7 @@ section#block-ppwg-ppwgfeatureservices {
         border: 2px solid #e7e7e7;
         background: #E4F4FF;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 20px;
+        padding: 15px 10px 0 10px;;
         margin-bottom: 20px; /* Vertical spacing between boxes */
         text-align: center;
     }
@@ -50,19 +50,23 @@ section#block-ppwg-ppwgfeatureservices {
         border-radius: 100px;
         border: 2px solid #FFF;
         background: #00548D;
-        padding: 5px 20px;
-        margin-top: 10px;
+        padding: 0px 11px;
+        margin-top: 5px;
         text-decoration: none;
     }    
 }
 
 @media (min-width: 768px) {
     section#block-ppwg-ppwgfeatureservices {
-        margin-top: -70px; 
+        margin-top: -140px; 
+
+        .feature-boxes-wrapper {
+            padding: 80px 20px 0;
+        }
 
         .feature-box {
-            margin-right: 30px; /* Space between boxes */
-            margin-left: 30px; /* Space between boxes */
+            margin-right: 10px; /* Space between boxes */
+            margin-left: 10px; /* Space between boxes */
             }
     
             .feature-boxes-wrapper .row {
@@ -72,12 +76,12 @@ section#block-ppwg-ppwgfeatureservices {
     
 
         .feature-title {
-            font-size: 27px;
+            font-size: 20px;
         }
         
         .feature-text {
-            font-size: 16px;
-            line-height: 145.5%;
+            font-size: 15px;
+            line-height: 130%;
         }
     }
 }
@@ -85,24 +89,28 @@ section#block-ppwg-ppwgfeatureservices {
 
 @media (min-width: 992px) {
     section#block-ppwg-ppwgfeatureservices {
-        margin-top: -80px; // Pull the section upwards
+        margin-top: -170px; 
+        background-size: 1141px 280px;
 
+        .feature-boxes-wrapper {
+            padding: 0px 20px 5px;
+        }
 
         .feature-box {
-            margin-right: 40px; /* Space between boxes */
-            margin-left: 40px; /* Space between boxes */
+            margin-right: 15px; /* Space between boxes */
+            margin-left: 15px; /* Space between boxes */
+            margin-top: 80px;
             }
 
         .feature-title {
-            font-size: 34px;
-            margin-bottom: 0.6em;
+            font-size: 26px;
+            margin-bottom: 10px;
         }
         
         .feature-text {
-            font-size: 19px;
-            line-height: 145.5%;
+            font-size: 15px;
+            line-height: 140%;
         }
     }
 }
-
 

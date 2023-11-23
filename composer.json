@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
+        "drupal/addanother": "^1.2",
         "drupal/admin_toolbar": "^3.0",
         "drupal/advagg": "^6.0@alpha",
         "drupal/advancedqueue": "^1.0@beta",
@@ -57,9 +58,11 @@
         "drupal/stage_file_proxy": "^2.0",
         "drupal/tfa": "^2.0@alpha",
         "drupal/typed_data": "^1.0@beta",
+        "drupal/views_bulk_operations": "^4.2",
         "drupal/webform": "^6.2@beta",
         "drupal/xmlsitemap": "^1.4",
         "drush/drush": "^11.5",
+        "enshrined/svg-sanitize": "^0.16.0",
         "webonyx/graphql-php": "^14.0"
     },
     "conflict": {

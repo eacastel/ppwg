@@ -1,5 +1,7 @@
 .container-fluid {
     padding-left: 0;
+    padding-right: 0;
+    background-color: #FCFCFC;
 }
 
 .container.ppwg-grid-one {
@@ -11,16 +13,14 @@
         }
 
     .ppwg-grid-one-title {
- 
         text-align: center;
         font-family: Plus Jakarta Sans;
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        padding-bottom:10px;
+        padding-bottom:12px;
         text-transform: uppercase;
-        padding-bottom: 12px;
 
         a {
             color: #00548D;
@@ -76,13 +76,13 @@
 
 /* GRID TWO FEATURED TREATMENTS */
 .container.ppwg-grid-two {
-    padding: 60px 14px;
+    padding: 40px 0px;
+    background-color: #FCFCFC;
 }
 
 .ppwg-grid-two-card {
     padding: 25px 35px;
     text-align: center;
-    /* Other styles as needed */
 }
 
 .ppwg-grid-two-title {
