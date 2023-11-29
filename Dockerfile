@@ -10,17 +10,18 @@ RUN apt-get update && apt-get install -y \
     mariadb-client \
     vim \
     libpng-dev \
+    libjpeg62-turbo-dev \
     libzip-dev \
     libicu-dev \
     --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
-# Enable the necessary PHP extensions
-RUN docker-php-ext-install pdo_mysql zip gd intl bcmath
+# Enable the necessary PHP extensions including GD with JPEG and PNG support
+RUN docker-php-ext-configure gd --with-jpeg --with-png --with-webp \
+    && docker-php-ext-install pdo_mysql zip gd intl bcmath
 
 # Increase PHP memory limit
 RUN echo "memory_limit=512M" > /usr/local/etc/php/conf.d/memory-limit.ini
-
 
 # Copy composer.json to install required Drupal packages and dependencies
 COPY ./composer.json composer.lock /opt/drupal/

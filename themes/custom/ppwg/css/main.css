@@ -103,23 +103,23 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75em;
-}
-
-h3 {
-  font-size: 1.5em;
-}
-
-h4 {
   font-size: 1.25em;
 }
 
-h5 {
+h3 {
   font-size: 1em;
 }
 
-h6 {
+h4 {
   font-size: 0.75em;
+}
+
+h5 {
+  font-size: 0.5em;
+}
+
+h6 {
+  font-size: 0.25em;
 }
 
 @media (min-width: 768px) {
@@ -127,19 +127,19 @@ h6 {
     font-size: 2.2em;
   }
   h2 {
-    font-size: 1.925em;
-  }
-  h3 {
-    font-size: 1.65em;
-  }
-  h4 {
     font-size: 1.375em;
   }
-  h5 {
+  h3 {
     font-size: 1.1em;
   }
-  h6 {
+  h4 {
     font-size: 0.825em;
+  }
+  h5 {
+    font-size: 0.55em;
+  }
+  h6 {
+    font-size: 0.275em;
   }
 }
 @media (min-width: 992px) {
@@ -147,19 +147,19 @@ h6 {
     font-size: 2.2em;
   }
   h2 {
-    font-size: 1.925em;
-  }
-  h3 {
-    font-size: 1.65em;
-  }
-  h4 {
     font-size: 1.375em;
   }
-  h5 {
+  h3 {
     font-size: 1.1em;
   }
-  h6 {
+  h4 {
     font-size: 0.825em;
+  }
+  h5 {
+    font-size: 0.55em;
+  }
+  h6 {
+    font-size: 0.275em;
   }
 }
 p {
@@ -320,7 +320,7 @@ h2.byline {
   line-height: 1.5em;
 }
 .node-31 .field--name-body li::marker {
-  font-size: 1.65em;
+  font-size: 1.1em;
 }
 
 /* Base Styles (Mobile First) */

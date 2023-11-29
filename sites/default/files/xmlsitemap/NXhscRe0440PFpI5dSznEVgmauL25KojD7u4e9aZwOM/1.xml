@@ -2,4 +2,33 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url><loc>http://localhost:8070/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://localhost:8070/pain-management</loc><lastmod>2023-11-13T01:21Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/pain-management/pre-surgical-consultation</loc><lastmod>2023-11-11T21:06Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/pain-management/medication-management</loc><lastmod>2023-11-11T21:08Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/mental-health</loc><lastmod>2023-11-11T21:13Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/mental-health/tms</loc><lastmod>2023-11-11T21:16Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/mental-health/ketamine-infusions</loc><lastmod>2023-11-11T21:19Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/mental-health/psychotropic-medication</loc><lastmod>2023-11-11T21:20Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/mental-health/psychotherapy</loc><lastmod>2023-11-11T21:25Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/mental-health/add-adhd-testing</loc><lastmod>2023-11-11T21:30Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/node/18</loc><lastmod>2023-11-11T21:31Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/mental-health/tbi-rehabilitation</loc><lastmod>2023-11-11T21:32Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/pain-management/ketamine-infusions</loc><lastmod>2023-11-11T20:35Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/mental-health/pre-post-surgical-evaluation</loc><lastmod>2023-11-11T21:34Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/node/25</loc><lastmod>2023-11-13T10:33Z</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<url><loc>http://localhost:8070/about-us</loc><lastmod>2023-11-13T21:34Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/privacy-policy</loc><lastmod>2023-11-13T13:05Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/terms-of-use</loc><lastmod>2023-11-13T13:06Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/our-team</loc><lastmod>2023-11-13T13:29Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/pain-management/epidural-injections</loc><lastmod>2023-11-11T20:33Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/our-team/dr-kartik-ananth</loc><lastmod>2023-11-15T16:38Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/node/31</loc><lastmod>2023-11-29T12:21Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://localhost:8070/treatment/pain-management/epidural-injections</loc><lastmod>2023-11-29T17:23Z</lastmod><changefreq>hourly</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:8070/treatment/pain-management/ketamine-infusions</loc><lastmod>2023-11-29T17:46Z</lastmod><changefreq>hourly</changefreq><priority>0.7</priority></url>
+<url><loc>http://localhost:8070/pain-management/chronic-pain-management</loc><lastmod>2023-11-11T20:41Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/pain-management/nerve-blocks</loc><lastmod>2023-11-11T20:44Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/pain-management/radiofrequency-ablation</loc><lastmod>2023-11-11T20:52Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/pain-management/spinal-cord-stimulation</loc><lastmod>2023-11-11T21:00Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/pain-management/botox-for-migraines</loc><lastmod>2023-11-11T21:03Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://localhost:8070/pain-management/facet-joint-injections</loc><lastmod>2023-11-11T21:04Z</lastmod><changefreq>monthly</changefreq></url>
 </urlset>
